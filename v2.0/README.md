@@ -29,7 +29,7 @@ localhost:8501 是主页
 localhost:8502 是子密钥管理  
 localhost:8503 是中间服务器  
 
-- .streamlit/secrets.toml 是子密钥管理的用户名和密码
+- .streamlit/secrets.toml 是子密钥管理页面的用户名和密码
 ```
 [admin_auth]
 username = ""
@@ -37,6 +37,7 @@ password = ""
 ```
 
 - master_keys.json 设置Siliconflow api token为主密钥（可设置多个）
+- 使用前优先设置才能创建子密钥
 ```
 {
   "master_keys": [
@@ -46,4 +47,4 @@ password = ""
 }
 ```
 
-- keys.json 储存子密钥
+- keys.json 储存子密钥（会自动创建）
