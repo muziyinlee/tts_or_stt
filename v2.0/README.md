@@ -25,9 +25,9 @@ python kms_api_server.py
 
 #### 说明
 v2.0是中间件子密钥程序，通过子密钥API来连接siliconflow API token  
-localhost:8501 是主页  
-localhost:8502 是子密钥管理  
-localhost:8503 是中间服务器  
+tts_or_stt.py localhost:8501 是主页  
+kms_web_interface.py localhost:8502 是子密钥管理  
+kms_api_server localhost:8503 是中间服务器  
 
 - .streamlit/secrets.toml 是子密钥管理页面的用户名和密码
 ```
@@ -48,3 +48,7 @@ password = ""
 ```
 
 - keys.json 储存子密钥（会自动创建）
+
+#### 子密钥扣费说明
+- 音频转文字 是根据音频大小来计算的：¥0.50/MB，每次最低扣除 ¥0.10
+- 文字转音频 是按照字符数来计算的： ¥50/百万 UTF-8 字节，每次最低扣除 ¥0.10
