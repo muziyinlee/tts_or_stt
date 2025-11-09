@@ -11,6 +11,11 @@ python需要3.8以上
 
 
 #### 启动
+- 安装依赖
+```
+pip install -r requirements.txt
+```
+
 - windows命令行
 ```
 streamlit run tts_or_stt.py --server.port 8501
