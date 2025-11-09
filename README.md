@@ -11,6 +11,8 @@ python需要3.8以上
 
 
 #### 启动
+- windows命令行
 ```
 streamlit run tts_or_stt.py --server.port 8501
 ```
+或直接运行 start.bat
