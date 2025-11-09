@@ -1,8 +1,0 @@
-streamlit==1.49.1
-requests==2.31.0
-requests-toolbelt==1.0.0
-pydub>=0.25.1
-pyinstaller==5.13.0
-importlib-metadata==6.8.0
-packaging==25.0
-flask_cors==6.0.1
